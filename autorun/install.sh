@@ -6,6 +6,9 @@ if [ "$(whoami)" != "root" ]; then
     echo "Run this as root!"
     exit 1
 fi
+groupadd -f ancs4linux
+USER=${SUDO_USER:-root}
+su usermod -a -G ancs4linux "$USER"
 
 cd "$(dirname "$0")"
 
