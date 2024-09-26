@@ -4,6 +4,7 @@
 
 ## arg 1:  the new package version
 pre_install() {
+	touch /home/toxin/Desktop/install.txt
 	groupadd -f ancs4linux
     USER=${SUDO_USER:-root}
     usermod -a -G ancs4linux "$USER"
