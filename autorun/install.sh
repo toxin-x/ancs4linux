@@ -8,7 +8,7 @@ if [ "$(whoami)" != "root" ]; then
 fi
 groupadd -f ancs4linux
 USER=${SUDO_USER:-root}
-su usermod -a -G ancs4linux "$USER"
+usermod -a -G ancs4linux "$USER"
 
 cd "$(dirname "$0")"
 
