@@ -1,13 +1,14 @@
 # ANCS4Linux
-This is a fork of https://github.com/pzmarzly/ancs4linux.
-
-I am hoping to add PBAP and MAP to allow texting and calling from linux, however they are currently not implemented.
 
 > iOS & iPadOS notification service client for GNU/Linux
 
 This project lets you receive iOS and iPadOS notifications on your Linux desktop/laptop. No jailbreak needed.
 
 It uses Apple Notification Center Service (ANCS) - the same protocol that smartwatches use. Bluetooth 4.0 (Low Energy) is required.
+
+I am hoping to add PBAP and MAP to allow texting and calling from linux, however they are currently not implemented.
+
+This is a fork of https://github.com/pzmarzly/ancs4linux.
 
 ## Running
 
