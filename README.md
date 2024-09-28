@@ -1,4 +1,6 @@
 # ANCS4Linux
+This is a fork of https://github.com/pzmarzly/ancs4linux
+I am hoping to add PBAP and MAP to allow texting and calling from linux, however they are currently not implemented.
 
 > iOS & iPadOS notification service client for GNU/Linux
 
